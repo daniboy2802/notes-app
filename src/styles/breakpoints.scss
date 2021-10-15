@@ -1,0 +1,14 @@
+$tablet:   768;
+$computer:  992;
+
+@mixin breakpoint($point) {
+  @if $point == tablet {
+    @media (max-width: #{$tablet}px) {
+      @content;
+    }
+  } @else if $point == computer {
+    @media (max-width: #{$computer}px) {
+      @content;
+    }
+  } 
+}

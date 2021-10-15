@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '../styles/modules/header.module.scss'
-import Link from 'next/link';
-import { Icon, Container } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 
 export default function Header() {
   return (
@@ -12,7 +11,6 @@ export default function Header() {
             <p>NotesApp</p>
           </span>
         </div>
-        <div></div>
       </Container>
     </header>    
   )
