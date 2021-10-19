@@ -8,6 +8,7 @@
   padding: 10px;
   border: 3px solid $color--secondary;
   border-radius: 10px;
+  resize: none;
   &:focus {
     outline: none;
     box-shadow: 0 0 10px #719ECE;
