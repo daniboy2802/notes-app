@@ -1,0 +1,28 @@
+@import '../variables.scss';
+
+.textArea {
+  display: block;
+  width: 100%;
+  margin: 20px 0px;
+  height: 590px;
+  padding: 10px;
+  border: 3px solid $color--secondary;
+  border-radius: 10px;
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 10px #719ECE;
+  }
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-flow: flex-end;
+}
